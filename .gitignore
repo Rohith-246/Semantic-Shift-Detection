@@ -1,0 +1,17 @@
+# Model and dataset artifacts
+semantic_shift_model.pt
+data/
+val_words.txt
+evaluation_report.md
+
+# Python and local environment files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.gradio/
+
+# Local editor and OS files
+.vscode/
+.DS_Store

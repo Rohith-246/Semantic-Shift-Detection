@@ -1,0 +1,6 @@
+torch
+transformers
+gradio
+nltk
+scikit-learn
+scipy
