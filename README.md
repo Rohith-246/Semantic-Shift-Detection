@@ -1,3 +1,14 @@
+---
+title: Semantic Shift Detection
+emoji: chart_with_upwards_trend
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
+sdk_version: 6.26.0
+app_file: app.py
+pinned: false
+---
+
 # Semantic Shift Detection
 
 A BERT-based semantic shift detector for comparing how a target word is used across two time periods. The project uses contextual embeddings and contrastive learning, then provides an interactive Gradio interface with an explanation of the likely meanings in each period.
