@@ -90,7 +90,3 @@ They walked along the bank of the river.
 ## Project Notes
 
 The trained model and downloaded dataset are intentionally excluded from Git because they are large generated artifacts. They are downloaded or created locally when needed. The decision threshold is currently set to `0.4437`, based on the existing validation workflow.
-
-## License
-
-Add the project license before distributing this repository publicly.
