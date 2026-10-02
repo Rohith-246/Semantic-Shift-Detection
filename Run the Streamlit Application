@@ -20,12 +20,3 @@ link is here : https://semantic-shift-detection-cs9htc5jqjjznwuzjej5nv.streamlit
 }
 
 ---
-
-### Push the `README.md` to GitHub
-
-Run these commands in your PyCharm terminal to make your GitHub repository immediately presentable:
-
-```bash
-git add README.md
-git commit -m "Add production-grade documentation and architecture diagrams"
-git push origin main
