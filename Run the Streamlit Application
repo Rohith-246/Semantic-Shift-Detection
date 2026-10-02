@@ -1,0 +1,31 @@
+streamlit run streamlit_app.py
+
+link is here : https://semantic-shift-detection-cs9htc5jqjjznwuzjej5nv.streamlit.app/
+
+📦 Directory Structure
+├── streamlit_app.py              # Main Streamlit web application & inference engine
+├── requirements.txt              # Production cloud runtime dependencies
+├── README.md                     # Technical documentation & project portfolio
+└── data/
+    └── semeval2020_eng/
+        └── semantic_encoder_full.pt  # Calibrated fine-tuned BERT checkpoint
+
+📄 Citation & References
+@inproceedings{schlechtweg-etal-2020-semeval,
+    title = "{S}em{E}val-2020 Task 1: Unsupervised Lexical Semantic Change Detection",
+    author = "Schlechtweg, Dominik and McGillivray, Barbara and Hengchen, Simon and Dubossarsky, Haim and Tahmasebi, Nina",
+    booktitle = "Proceedings of the 14th International Workshop on Semantic Evaluation",
+    year = "2020",
+    pages = "1--23"
+}
+
+---
+
+### Push the `README.md` to GitHub
+
+Run these commands in your PyCharm terminal to make your GitHub repository immediately presentable:
+
+```bash
+git add README.md
+git commit -m "Add production-grade documentation and architecture diagrams"
+git push origin main
